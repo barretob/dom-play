@@ -1,20 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>Project Name</title>
+		<title>DOM Play</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width" />
 		<link rel="stylesheet" href="css/main.css" />
 		<link rel="stylesheet" href="css/nav.css" />
 		<link rel="stylesheet" href="css/forms.css" />
+		<style>
+			/* .TOM {
+				background-color:yellow;
+			}
+
+			#play span{
+				background-color:green;
+			} */
+		</style>
 	</head>
 	<body>
 		<header>
-			<h1 class="page-header">Site Name</h1>
+			<h1 class="page-header">DOM Play</h1>
 			<nav class="topnav" id="myTopnav">
 				<a href="index.html" class="active">Home</a>
-				<a href="#">Link</a>
-				<a href="#">Link</a>
+				<a href="https://freedrama.net/gremlin.html">Gremlin Story Script</a>
+				<a href="#">LINK</a>
+				<a href="#">LINK</a>
 				<a href="javascript:void(0);" class="icon" onclick="myFunction()"
 					>&#9776;</a
 				>
@@ -22,16 +32,35 @@
 		</header>
 
 		<main class="wrapper">
-			<h2 class="subheader">Project Name</h2>
-
-			<p>Description</p>
-			<p>Description</p>
-			<p>Description</p>
-
+			<h2 class="subheader">DOM Play</h2>
+			<div id="play">
+				<p>
+					<span data-actor="TOM">TOM:Werewolves?</span>
+				</p>
+				<p>
+					<span data-actor="PAULA">PAULA:Vampires?</span>
+				</p>
+				<p>
+					<span data-actor="ALAN">ALAN:Zombies.</span>
+				</p>
+				<p>
+					<span data-actor="TOM"
+						>TOM:Oh, man. Im sick of hearing about zombie attacks.</span
+					>
+				</p>
+				<p>
+					<span data-actor="PAULA">PAULA:How cliché.</span>
+				</p>
+				<p>
+					<span data-actor="ALAN"
+						>ALAN:Fine, then well talk about gremlins.</span
+					>
+				</p>
+			</div>
 			<footer>
 				<p>
 					<small
-						>&copy; 2021-<span id="this-year"></span> by Bryan Barreto All
+						>&copy; 2021-<span id="this-year"></span> by Bryan Barreto, All
 						Rights Reserved ~
 						<a id="html-checker" href="#" target="_blank">Check HTML</a> ~
 						<a id="css-checker" href="#" target="_blank">Check CSS</a></small
